@@ -1,0 +1,49 @@
+body {
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 0;
+}
+
+div#kalkulator {
+    position: relative;
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+}
+
+#zawartosc {
+    position: absolute;
+    margin: 0px;
+    border: 4px solid #ffa500;
+    background-color: #ffa500;
+}
+
+#polekalkulatora {
+    width: 185px;
+    height: 45px;
+}
+
+.callbutton {
+    color: #fff;
+    background-color: #000;
+    width: 42px;
+    height: 42px;
+    margin-top: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 8px;
+    border: 1px solid #fff;
+}
+
+#plus,
+#minus,
+#mnozenie,
+#dzielenie,
+#rownasie,
+#kropka {
+    background-color: #ea0000;
+}
+
+#wyczysc {
+    background-color: #0000ef;
+}
